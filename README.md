@@ -28,7 +28,7 @@ cd blog-service
 server.port=8080
 
 # Database Config
-spring.datasource.url=jdbc:mysql://localhost:3306/authdb
+spring.datasource.url=jdbc:mysql://localhost:3306/blogdb
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
