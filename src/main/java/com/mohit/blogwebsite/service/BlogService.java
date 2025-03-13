@@ -76,7 +76,7 @@ public class BlogService {
 
     @Caching(evict = {
             @CacheEvict(value = "blogsPage", allEntries = true),  // Clears paginated blogs cache
-            // Removes specific blog cache
+
     }
     ,put = {
             @CachePut(value = "blogs", key = "#blogDto.id")
